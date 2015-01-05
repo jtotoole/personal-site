@@ -1,18 +1,58 @@
-* {
-  text-align: center;
-}
-
-img {
+img[src="http://i.imgur.com/dZQ5de6.jpg"] {  /*monkey photo on homepage*/
   border: 5px solid black;
   border-radius: 10px;
+  margin-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img[src="http://i.imgur.com/RKVShHv.png"] {  /*cnn photo on words*/
+  border: 1px solid black;
+  border-radius: 5px;
+  float: right;
+  margin-top: 10px;
+}
+
+img[src="./GitHub_Logo.png"] {
+  border: 5px solid black;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+img[src="https://static.licdn.com/scds/common/u/img/webpromo/btn_myprofile_160x33.png"] {
+  border: 5px solid black;
+  border-radius: 10px;
+  margin-top: 10px;
 }
 
 body {
   background-image: url("./grey_wash_wall.png");
 }
 
+button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Oswald', sans-serif;
+  font-size: 125%;
+  background: #ffcb05;
+  color: #666666;
+  border: 5px solid black;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+button:hover {
+  color: white;
+  background-color: black;
+}
+
 .social {
   text-align: center;
+  clear: both;
 }
 
 h2 {
@@ -20,6 +60,7 @@ h2 {
   padding-top: 7px;
   padding-bottom: 15px;
   color: #ffcb05;
+  text-align: center;
 }
 
 .nav ul {
