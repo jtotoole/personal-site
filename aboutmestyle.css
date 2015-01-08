@@ -12,6 +12,7 @@ img[src="http://i.imgur.com/RKVShHv.png"] {  /*cnn photo on words*/
   border-radius: 5px;
   float: right;
   margin-top: 10px;
+  margin-left: 66%;
 }
 
 img[src="./GitHub_Logo.png"] {
@@ -24,6 +25,14 @@ img[src="https://static.licdn.com/scds/common/u/img/webpromo/btn_myprofile_160x3
   border: 5px solid black;
   border-radius: 10px;
   margin-top: 10px;
+}
+
+.video {
+  margin: 0px auto;
+  width: 560px;
+  height: 315px;
+  margin-bottom: 50px;
+  margin-top: 40px;
 }
 
 body {
@@ -41,8 +50,6 @@ button {
   border: 5px solid black;
   border-radius: 4px;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-  margin-top: 200px;
-  margin-bottom: 200px;
 }
 
 button:hover {
@@ -51,8 +58,54 @@ button:hover {
 }
 
 .social {
+  margin-top: 40px;
   text-align: center;
   clear: both;
+}
+
+.codetext {
+  font-family: 'Oswald', sans-serif;
+  color: #ffcb05;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 1.2em;
+}
+
+.codetext a {
+  text-decoration: none;
+  color: #ffcb05;
+}
+
+.codetext a:hover {
+  color: white;
+  background-color: black;
+}
+
+.project_list {
+  list-style: none;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  color: black;
+}
+
+.clips {
+  font-family: 'Oswald', sans-serif;
+  color: #ffcb05;
+  text-align: left;
+  position: absolute;
+  left: 10%;
+  width: 40%;
+  margin-top: 50px;
+}
+
+.clips a {
+  text-decoration: none;
+  color: #ffcb05;
+}
+
+.clips a:hover {
+  color: white;
+  background-color: black;
 }
 
 h2 {

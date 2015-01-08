@@ -1,9 +1,9 @@
 0 info it worked if it ends with ok
-1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'ws' ]
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'jshint' ]
 2 info using npm@1.4.28
 3 info using node@v0.10.33
-4 verbose cache add [ 'ws', null ]
-5 verbose cache add name=undefined spec="ws" args=["ws",null]
+4 verbose cache add [ 'jshint', null ]
+5 verbose cache add name=undefined spec="jshint" args=["jshint",null]
 6 verbose parsed url { protocol: null,
 6 verbose parsed url   slashes: null,
 6 verbose parsed url   auth: null,
@@ -13,133 +13,219 @@
 6 verbose parsed url   hash: null,
 6 verbose parsed url   search: null,
 6 verbose parsed url   query: null,
-6 verbose parsed url   pathname: 'ws',
-6 verbose parsed url   path: 'ws',
-6 verbose parsed url   href: 'ws' }
-7 silly lockFile 1457b75d-ws ws
-8 verbose lock ws /Users/jamesotoole/.npm/1457b75d-ws.lock
-9 silly lockFile 1457b75d-ws ws
-10 silly lockFile 1457b75d-ws ws
-11 verbose addNamed [ 'ws', '' ]
+6 verbose parsed url   pathname: 'jshint',
+6 verbose parsed url   path: 'jshint',
+6 verbose parsed url   href: 'jshint' }
+7 silly lockFile da5c03cb-jshint jshint
+8 verbose lock jshint /Users/jamesotoole/.npm/da5c03cb-jshint.lock
+9 silly lockFile da5c03cb-jshint jshint
+10 silly lockFile da5c03cb-jshint jshint
+11 verbose addNamed [ 'jshint', '' ]
 12 verbose addNamed [ null, '*' ]
-13 silly lockFile e88fe629-ws ws@
-14 verbose lock ws@ /Users/jamesotoole/.npm/e88fe629-ws.lock
-15 silly addNameRange { name: 'ws', range: '*', hasData: false }
-16 verbose request where is /ws
+13 silly lockFile a02a2468-jshint jshint@
+14 verbose lock jshint@ /Users/jamesotoole/.npm/a02a2468-jshint.lock
+15 silly addNameRange { name: 'jshint', range: '*', hasData: false }
+16 verbose request where is /jshint
 17 verbose request registry https://registry.npmjs.org/
-18 verbose request id eda6c7c14ba6e87f
-19 verbose url raw /ws
-20 verbose url resolving [ 'https://registry.npmjs.org/', './ws' ]
-21 verbose url resolved https://registry.npmjs.org/ws
-22 verbose request where is https://registry.npmjs.org/ws
-23 info trying registry request attempt 1 at 15:15:19
-24 verbose etag "B7MOQPPVO4FWBIJD240UMRETE"
-25 http GET https://registry.npmjs.org/ws
-26 http 200 https://registry.npmjs.org/ws
-27 silly registry.get cb [ 200,
-27 silly registry.get   { date: 'Sun, 04 Jan 2015 20:15:19 GMT',
-27 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-27 silly registry.get     etag: '"1RYH6VNU7JDTQKT71TI232KQ8"',
-27 silly registry.get     'content-type': 'application/json',
-27 silly registry.get     'cache-control': 'max-age=60',
-27 silly registry.get     'content-length': '65951',
-27 silly registry.get     'accept-ranges': 'bytes',
-27 silly registry.get     via: '1.1 varnish',
-27 silly registry.get     age: '27',
-27 silly registry.get     'x-served-by': 'cache-atl6233-ATL',
-27 silly registry.get     'x-cache': 'HIT',
-27 silly registry.get     'x-cache-hits': '1',
-27 silly registry.get     'x-timer': 'S1420402519.902007,VS0,VE2',
-27 silly registry.get     vary: 'Accept',
-27 silly registry.get     'keep-alive': 'timeout=10, max=50',
-27 silly registry.get     connection: 'Keep-Alive' } ]
-28 silly addNameRange number 2 { name: 'ws', range: '*', hasData: true }
-29 silly addNameRange versions [ 'ws',
-29 silly addNameRange   [ '0.2.6',
-29 silly addNameRange     '0.2.8',
-29 silly addNameRange     '0.2.9',
-29 silly addNameRange     '0.3.0',
-29 silly addNameRange     '0.3.1',
-29 silly addNameRange     '0.3.2',
-29 silly addNameRange     '0.3.3',
-29 silly addNameRange     '0.3.4',
-29 silly addNameRange     '0.3.4-2',
-29 silly addNameRange     '0.3.5',
-29 silly addNameRange     '0.3.5-2',
-29 silly addNameRange     '0.3.5-3',
-29 silly addNameRange     '0.3.5-4',
-29 silly addNameRange     '0.3.6',
-29 silly addNameRange     '0.3.7',
-29 silly addNameRange     '0.3.8',
-29 silly addNameRange     '0.3.9',
-29 silly addNameRange     '0.4.0',
-29 silly addNameRange     '0.4.1',
-29 silly addNameRange     '0.4.2',
-29 silly addNameRange     '0.4.3',
-29 silly addNameRange     '0.4.5',
-29 silly addNameRange     '0.4.6',
-29 silly addNameRange     '0.4.7',
-29 silly addNameRange     '0.4.8',
-29 silly addNameRange     '0.4.9',
-29 silly addNameRange     '0.4.10',
-29 silly addNameRange     '0.4.11',
-29 silly addNameRange     '0.4.12',
-29 silly addNameRange     '0.4.13',
-29 silly addNameRange     '0.4.14',
-29 silly addNameRange     '0.4.15',
-29 silly addNameRange     '0.4.16',
-29 silly addNameRange     '0.4.17',
-29 silly addNameRange     '0.4.18',
-29 silly addNameRange     '0.4.19',
-29 silly addNameRange     '0.4.20',
-29 silly addNameRange     '0.4.21',
-29 silly addNameRange     '0.4.22',
-29 silly addNameRange     '0.4.23',
-29 silly addNameRange     '0.4.24',
-29 silly addNameRange     '0.4.25',
-29 silly addNameRange     '0.4.27',
-29 silly addNameRange     '0.4.28',
-29 silly addNameRange     '0.4.29',
-29 silly addNameRange     '0.4.30',
-29 silly addNameRange     '0.4.31',
-29 silly addNameRange     '0.4.32',
-29 silly addNameRange     '0.5.0',
-29 silly addNameRange     '0.6.0',
-29 silly addNameRange     '0.6.1',
-29 silly addNameRange     '0.6.2',
-29 silly addNameRange     '0.6.3',
-29 silly addNameRange     '0.6.4' ] ]
-30 verbose addNamed [ 'ws', '0.6.4' ]
-31 verbose addNamed [ '0.6.4', '0.6.4' ]
-32 silly lockFile 3a8efea5-ws-0-6-4 ws@0.6.4
-33 verbose lock ws@0.6.4 /Users/jamesotoole/.npm/3a8efea5-ws-0-6-4.lock
-34 silly lockFile 2e0b7b53-gistry-npmjs-org-ws-ws-0-6-4-tgz https://registry.npmjs.org/ws/-/ws-0.6.4.tgz
-35 verbose lock https://registry.npmjs.org/ws/-/ws-0.6.4.tgz /Users/jamesotoole/.npm/2e0b7b53-gistry-npmjs-org-ws-ws-0-6-4-tgz.lock
-36 verbose addRemoteTarball [ 'https://registry.npmjs.org/ws/-/ws-0.6.4.tgz',
-36 verbose addRemoteTarball   '3d8454485cbde399241876c3e9a4a6cef8284674' ]
-37 info retry fetch attempt 1 at 15:15:20
-38 verbose fetch to= /var/folders/yz/by2cys9d08x8fnnng5wtqphc0000gn/T/npm-838-mUnmCsi5/registry.npmjs.org/ws/-/ws-0.6.4.tgz
-39 http GET https://registry.npmjs.org/ws/-/ws-0.6.4.tgz
-40 http 200 https://registry.npmjs.org/ws/-/ws-0.6.4.tgz
-41 silly lockFile 2e0b7b53-gistry-npmjs-org-ws-ws-0-6-4-tgz https://registry.npmjs.org/ws/-/ws-0.6.4.tgz
-42 silly lockFile 2e0b7b53-gistry-npmjs-org-ws-ws-0-6-4-tgz https://registry.npmjs.org/ws/-/ws-0.6.4.tgz
-43 silly lockFile 3a8efea5-ws-0-6-4 ws@0.6.4
-44 silly lockFile 3a8efea5-ws-0-6-4 ws@0.6.4
-45 silly lockFile e88fe629-ws ws@
-46 silly lockFile e88fe629-ws ws@
-47 error Error: EACCES, mkdir '/Users/jamesotoole/.npm/ws/0.6.4'
-47 error  { [Error: EACCES, mkdir '/Users/jamesotoole/.npm/ws/0.6.4']
-47 error   errno: 3,
-47 error   code: 'EACCES',
-47 error   path: '/Users/jamesotoole/.npm/ws/0.6.4' }
-48 error Please try running this command again as root/Administrator.
-49 error System Darwin 14.0.0
-50 error command "node" "/usr/local/bin/npm" "install" "-g" "ws"
-51 error cwd /Users/jamesotoole/Desktop/General Assembly/aboutme
-52 error node -v v0.10.33
-53 error npm -v 1.4.28
-54 error path /Users/jamesotoole/.npm/ws/0.6.4
-55 error code EACCES
-56 error errno 3
-57 error stack Error: EACCES, mkdir '/Users/jamesotoole/.npm/ws/0.6.4'
-58 verbose exit [ 3, true ]
+18 verbose request id fd7df6d5265c3812
+19 verbose url raw /jshint
+20 verbose url resolving [ 'https://registry.npmjs.org/', './jshint' ]
+21 verbose url resolved https://registry.npmjs.org/jshint
+22 verbose request where is https://registry.npmjs.org/jshint
+23 info trying registry request attempt 1 at 14:30:48
+24 http GET https://registry.npmjs.org/jshint
+25 http 200 https://registry.npmjs.org/jshint
+26 silly registry.get cb [ 200,
+26 silly registry.get   { date: 'Thu, 08 Jan 2015 19:30:48 GMT',
+26 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+26 silly registry.get     etag: '"1398F794IVFN69AFQ6JPTAQ40"',
+26 silly registry.get     'content-type': 'application/json',
+26 silly registry.get     'cache-control': 'max-age=60',
+26 silly registry.get     'content-length': '89047',
+26 silly registry.get     'accept-ranges': 'bytes',
+26 silly registry.get     via: '1.1 varnish',
+26 silly registry.get     age: '18',
+26 silly registry.get     'x-served-by': 'cache-atl6223-ATL',
+26 silly registry.get     'x-cache': 'HIT',
+26 silly registry.get     'x-cache-hits': '1',
+26 silly registry.get     'x-timer': 'S1420745448.595089,VS0,VE1',
+26 silly registry.get     vary: 'Accept',
+26 silly registry.get     'keep-alive': 'timeout=10, max=50',
+26 silly registry.get     connection: 'Keep-Alive' } ]
+27 silly addNameRange number 2 { name: 'jshint', range: '*', hasData: true }
+28 silly addNameRange versions [ 'jshint',
+28 silly addNameRange   [ '0.1.8',
+28 silly addNameRange     '0.1.9',
+28 silly addNameRange     '0.2.0',
+28 silly addNameRange     '0.2.1',
+28 silly addNameRange     '0.2.2',
+28 silly addNameRange     '0.2.3',
+28 silly addNameRange     '0.3.0',
+28 silly addNameRange     '0.3.1',
+28 silly addNameRange     '0.4.0',
+28 silly addNameRange     '0.5.0',
+28 silly addNameRange     '0.5.1',
+28 silly addNameRange     '0.5.2',
+28 silly addNameRange     '0.5.3',
+28 silly addNameRange     '0.5.4',
+28 silly addNameRange     '0.5.5',
+28 silly addNameRange     '0.5.6',
+28 silly addNameRange     '0.5.7',
+28 silly addNameRange     '0.5.8',
+28 silly addNameRange     '0.5.9',
+28 silly addNameRange     '0.6.0',
+28 silly addNameRange     '0.6.1',
+28 silly addNameRange     '0.6.2',
+28 silly addNameRange     '0.6.3',
+28 silly addNameRange     '0.7.0',
+28 silly addNameRange     '0.7.1',
+28 silly addNameRange     '0.7.2',
+28 silly addNameRange     '0.7.3',
+28 silly addNameRange     '0.8.0',
+28 silly addNameRange     '0.8.1',
+28 silly addNameRange     '0.8.2',
+28 silly addNameRange     '0.9.0',
+28 silly addNameRange     '0.9.1',
+28 silly addNameRange     '1.0.0',
+28 silly addNameRange     '1.1.0',
+28 silly addNameRange     '2.0.0',
+28 silly addNameRange     '2.0.1',
+28 silly addNameRange     '2.1.0',
+28 silly addNameRange     '2.1.1',
+28 silly addNameRange     '2.1.2',
+28 silly addNameRange     '2.1.3',
+28 silly addNameRange     '2.1.4',
+28 silly addNameRange     '2.1.5',
+28 silly addNameRange     '2.1.6',
+28 silly addNameRange     '2.1.7',
+28 silly addNameRange     '2.1.8',
+28 silly addNameRange     '2.1.9',
+28 silly addNameRange     '2.1.10',
+28 silly addNameRange     '2.1.11',
+28 silly addNameRange     '2.2.0',
+28 silly addNameRange     '2.3.0',
+28 silly addNameRange     '2.4.0',
+28 silly addNameRange     '2.4.1',
+28 silly addNameRange     '2.4.2',
+28 silly addNameRange     '2.4.3',
+28 silly addNameRange     '2.4.4',
+28 silly addNameRange     '2.5.0',
+28 silly addNameRange     '2.5.1',
+28 silly addNameRange     '2.5.2',
+28 silly addNameRange     '2.5.3',
+28 silly addNameRange     '2.5.4',
+28 silly addNameRange     '2.5.5',
+28 silly addNameRange     '2.5.6',
+28 silly addNameRange     '2.5.7',
+28 silly addNameRange     '2.5.8',
+28 silly addNameRange     '2.5.9',
+28 silly addNameRange     '2.5.10',
+28 silly addNameRange     '2.5.11' ] ]
+29 verbose addNamed [ 'jshint', '2.5.11' ]
+30 verbose addNamed [ '2.5.11', '2.5.11' ]
+31 silly lockFile 177b55c5-jshint-2-5-11 jshint@2.5.11
+32 verbose lock jshint@2.5.11 /Users/jamesotoole/.npm/177b55c5-jshint-2-5-11.lock
+33 silly lockFile 7efc0cac-mjs-org-jshint-jshint-2-5-11-tgz https://registry.npmjs.org/jshint/-/jshint-2.5.11.tgz
+34 verbose lock https://registry.npmjs.org/jshint/-/jshint-2.5.11.tgz /Users/jamesotoole/.npm/7efc0cac-mjs-org-jshint-jshint-2-5-11-tgz.lock
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/jshint/-/jshint-2.5.11.tgz',
+35 verbose addRemoteTarball   'e2d95858bbb1aa78300108a2e81099fb095622e0' ]
+36 info retry fetch attempt 1 at 14:30:48
+37 verbose fetch to= /var/folders/yz/by2cys9d08x8fnnng5wtqphc0000gn/T/npm-2475-k1mSmlP0/registry.npmjs.org/jshint/-/jshint-2.5.11.tgz
+38 http GET https://registry.npmjs.org/jshint/-/jshint-2.5.11.tgz
+39 http 200 https://registry.npmjs.org/jshint/-/jshint-2.5.11.tgz
+40 silly lockFile 7efc0cac-mjs-org-jshint-jshint-2-5-11-tgz https://registry.npmjs.org/jshint/-/jshint-2.5.11.tgz
+41 silly lockFile 7efc0cac-mjs-org-jshint-jshint-2-5-11-tgz https://registry.npmjs.org/jshint/-/jshint-2.5.11.tgz
+42 silly lockFile 177b55c5-jshint-2-5-11 jshint@2.5.11
+43 silly lockFile 177b55c5-jshint-2-5-11 jshint@2.5.11
+44 silly lockFile a02a2468-jshint jshint@
+45 silly lockFile a02a2468-jshint jshint@
+46 silly resolved [ { name: 'jshint',
+46 silly resolved     version: '2.5.11',
+46 silly resolved     homepage: 'http://jshint.com/',
+46 silly resolved     description: 'Static analysis tool for JavaScript',
+46 silly resolved     author:
+46 silly resolved      { name: 'Anton Kovalyov',
+46 silly resolved        email: 'anton@kovalyov.net',
+46 silly resolved        url: 'http://anton.kovalyov.net/' },
+46 silly resolved     repository: { type: 'git', url: 'https://github.com/jshint/jshint.git' },
+46 silly resolved     bugs: { url: 'https://github.com/jshint/jshint/issues' },
+46 silly resolved     bin: { jshint: './bin/jshint' },
+46 silly resolved     scripts:
+46 silly resolved      { build: 'node bin/build',
+46 silly resolved        coverage: 'istanbul -- cover ./node_modules/.bin/nodeunit tests/unit',
+46 silly resolved        data: 'node scripts/generate-identifier-data',
+46 silly resolved        pretest: 'jshint src',
+46 silly resolved        test: 'nodeunit tests tests/regression tests/unit' },
+46 silly resolved     main: './src/jshint.js',
+46 silly resolved     dependencies:
+46 silly resolved      { cli: '0.6.x',
+46 silly resolved        'console-browserify': '1.1.x',
+46 silly resolved        exit: '0.1.x',
+46 silly resolved        htmlparser2: '3.8.x',
+46 silly resolved        minimatch: '1.0.x',
+46 silly resolved        shelljs: '0.3.x',
+46 silly resolved        'strip-json-comments': '1.0.x',
+46 silly resolved        underscore: '1.6.x' },
+46 silly resolved     devDependencies:
+46 silly resolved      { browserify: '6.x',
+46 silly resolved        coveralls: '2.11.x',
+46 silly resolved        istanbul: '0.3.x',
+46 silly resolved        jshint: '2.5.x',
+46 silly resolved        'mock-stdin': '0.3.x',
+46 silly resolved        nodeunit: '0.9.x',
+46 silly resolved        regenerate: '1.0.x',
+46 silly resolved        sinon: '1.11.x',
+46 silly resolved        'unicode-6.3.0': '0.1.x' },
+46 silly resolved     licenses: [ [Object] ],
+46 silly resolved     preferGlobal: true,
+46 silly resolved     files: [ 'bin', 'data', 'dist', 'src' ],
+46 silly resolved     gitHead: '29bda1104e117c34bdd7702854fbc40cd00e66ac',
+46 silly resolved     _id: 'jshint@2.5.11',
+46 silly resolved     _shasum: 'e2d95858bbb1aa78300108a2e81099fb095622e0',
+46 silly resolved     _from: 'jshint@',
+46 silly resolved     _npmVersion: '1.5.0-alpha-1',
+46 silly resolved     _npmUser: { name: 'rwaldron', email: 'waldron.rick@gmail.com' },
+46 silly resolved     maintainers: [ [Object], [Object] ],
+46 silly resolved     dist:
+46 silly resolved      { shasum: 'e2d95858bbb1aa78300108a2e81099fb095622e0',
+46 silly resolved        tarball: 'http://registry.npmjs.org/jshint/-/jshint-2.5.11.tgz' },
+46 silly resolved     directories: {},
+46 silly resolved     _resolved: 'https://registry.npmjs.org/jshint/-/jshint-2.5.11.tgz' } ]
+47 info install jshint@2.5.11 into /usr/local/lib
+48 info installOne jshint@2.5.11
+49 verbose lib/node_modules/jshint unbuild
+50 verbose tar unpack /Users/jamesotoole/.npm/jshint/2.5.11/package.tgz
+51 silly lockFile 59dfcd45-sr-local-lib-node-modules-jshint tar:///usr/local/lib/node_modules/jshint
+52 verbose lock tar:///usr/local/lib/node_modules/jshint /Users/jamesotoole/.npm/59dfcd45-sr-local-lib-node-modules-jshint.lock
+53 silly lockFile b2ced2d9-le-npm-jshint-2-5-11-package-tgz tar:///Users/jamesotoole/.npm/jshint/2.5.11/package.tgz
+54 verbose lock tar:///Users/jamesotoole/.npm/jshint/2.5.11/package.tgz /Users/jamesotoole/.npm/b2ced2d9-le-npm-jshint-2-5-11-package-tgz.lock
+55 silly gunzTarPerm modes [ '755', '644' ]
+56 error Error: EACCES, mkdir '/usr/local/lib/node_modules/jshint'
+56 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/jshint']
+56 error   errno: 3,
+56 error   code: 'EACCES',
+56 error   path: '/usr/local/lib/node_modules/jshint',
+56 error   fstream_type: 'Directory',
+56 error   fstream_path: '/usr/local/lib/node_modules/jshint',
+56 error   fstream_class: 'DirWriter',
+56 error   fstream_stack:
+56 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+56 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+56 error      'Object.oncomplete (fs.js:107:15)' ] }
+57 error Please try running this command again as root/Administrator.
+58 error System Darwin 14.0.0
+59 error command "node" "/usr/local/bin/npm" "install" "-g" "jshint"
+60 error cwd /Users/jamesotoole/Desktop/General Assembly/aboutme
+61 error node -v v0.10.33
+62 error npm -v 1.4.28
+63 error path /usr/local/lib/node_modules/jshint
+64 error fstream_path /usr/local/lib/node_modules/jshint
+65 error fstream_type Directory
+66 error fstream_class DirWriter
+67 error code EACCES
+68 error errno 3
+69 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/jshint'
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+70 error fstream_stack Object.oncomplete (fs.js:107:15)
+71 verbose exit [ 3, true ]
