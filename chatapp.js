@@ -1,5 +1,5 @@
 //var ws = new WebSocket("ws://james.princesspeach.nyc:3000"); //for running on http
-var ws = new WebSocket("ws://localhost:2000"); //for running locally
+var ws = new WebSocket("ws://104.236.70.31:2000"); //for running locally
 
 var ul = document.querySelector("ul");
 
